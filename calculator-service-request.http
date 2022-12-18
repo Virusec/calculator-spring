@@ -1,0 +1,17 @@
+### Приветствие
+GET http://localhost:8080/calculator
+
+### Получить сумму 2х чисел
+GET http://localhost:8080/calculator/plus?num1=5&num2=5
+
+### Получить разность 2х чисел
+GET http://localhost:8080/calculator/minus?num1=5&num2=5
+
+### Получить произведение 2х чисел
+GET http://localhost:8080/calculator/multiply?num1=5&num2=5
+
+### Получить частное 2х чисел
+GET http://localhost:8080/calculator/divide?num1=5&num2=5
+
+### Получить частное 2х чисел(Деление на нуль)
+GET http://localhost:8080/calculator/divide?num1=5&num2=0
